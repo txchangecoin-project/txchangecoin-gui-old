@@ -4,17 +4,17 @@ Copyright (c) 2014-2019, The Monero Project
 
 ## Development resources
 
-- Web: [getmonero.org](https://getmonero.org)
-- Forum: [forum.getmonero.org](https://forum.getmonero.org)
-- Mail: [dev@getmonero.org](mailto:dev@getmonero.org)
-- Github: [https://github.com/monero-project/monero-gui](https://github.com/monero-project/monero-gui)
-- IRC: [#monero-dev on Freenode](irc://chat.freenode.net/#monero-dev)
-- Translation platform (Pootle): [translate.getmonero.org](https://translate.getmonero.org)
+- Web: [txchange.online](https://txchange.online)
+- Forum: [t.me/txchangecoin](https://t.me/txchangecoin)
+- Mail: [txchangecoin@gmail.com](mailto:txchangecoin@gmail.com)
+- Github: [https://github.com/txchangecoin-project/txchangecoin-gui](https://github.com/txchangecoin-project/txchangecoin-gui)
+- Discord: [discord.gg/ugP3EZM](https://discord.gg/ugP3EZM)
+
 
 ## Vulnerability response
 
-- Our [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
-- We are also available via [HackerOne](https://hackerone.com/monero)
+- Our [Vulnerability Response Process](https://github.com/txchangecoin-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
+- We are also available via [HackerOne](https://hackerone.com/txchangecoin)
 
 ## Introduction
 
@@ -28,7 +28,7 @@ Monero is a private, secure, untraceable, decentralised digital currency. You ar
 
 ## About this project
 
-This is the GUI for the [core Monero implementation](https://github.com/monero-project/monero). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Monero that uses the protocol and network in a compatible manner.
+This is the GUI for the [core Monero implementation](https://github.com/txchangecoin-project/txchangecoin). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Monero that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
@@ -56,20 +56,15 @@ There are also several mining pools that kindly donate a portion of their fees, 
 
 See [LICENSE](LICENSE).
 
-## Translations
 
-Do you speak a second language and would like to help translate the Monero GUI? Check out Pootle, our localization platform, at [translate.getmonero.org](https://translate.getmonero.org/projects/monero-gui/). Choose the language and suggest a translation for a string or review an existing one. The Localization Workgroup made [a guide with step-by-step instructions](https://github.com/monero-ecosystem/monero-translations/blob/master/pootle.md) for Pootle.
-&nbsp;
-
-If you need help/support or any info you can contact the localization workgroup on the IRC channel #monero-translations (relayed on matrix/riot and MatterMost) or by email at translate[at]getmonero[dot]org. For more info about the Localization workgroup: [github.com/monero-ecosystem/monero-translations](https://github.com/monero-ecosystem/monero-translations)
 
 ## Installing the Monero GUI from a package
 
 Packages are available for
 
-* Arch Linux via AUR: [monero-wallet-qt](https://aur.archlinux.org/packages/monero-wallet-qt/)
-* Void Linux: xbps-install -S monero-core
-* GuixSD: guix package -i monero-core
+* Arch Linux via AUR: [txchangecoin-wallet-qt](https://aur.archlinux.org/packages/monero-wallet-qt/)
+* Void Linux: xbps-install -S txchangecoin-core
+* GuixSD: guix package -i txchangecoin-core
 
 Packaging for your favorite distribution would be a welcome contribution!
 
@@ -120,12 +115,12 @@ Packaging for your favorite distribution would be a welcome contribution!
 
 3. Clone repository
 
-    `git clone https://github.com/monero-project/monero-gui.git`
+    `git clone https://github.com/txchangecoin-project/txchangecoin-gui.git`
 
 4. Build
 
     ```
-    cd monero-gui
+    cd txchangecoin-gui
     QT_SELECT=5 ./build.sh
     ```
 
@@ -137,7 +132,7 @@ The executable can be found in the build/release/bin folder.
 
 2. Install [homebrew](http://brew.sh/)
 
-3. Install [monero](https://github.com/monero-project/monero) dependencies:
+3. Install [txchangecoin](https://github.com/txchangecoin-project/txchangecoin) dependencies:
 
   `brew install boost`
 
@@ -165,13 +160,13 @@ The executable can be found in the build/release/bin folder.
 
     This is the directory where Qt 5.x is installed on **your** system
 
-6. Grab an up-to-date copy of the monero-gui repository
+6. Grab an up-to-date copy of the txchangecoin-gui repository
 
-  `git clone https://github.com/monero-project/monero-gui.git`
+  `git clone https://github.com/txchangecoin-project/txchangecoin-gui.git`
 
 7. Go into the repository
 
-  `cd monero-gui`
+  `cd txchangecoin-gui`
 
 8. Start the build
 
@@ -212,7 +207,7 @@ The Monero GUI on Windows is 64 bits only; 32-bit Windows GUI builds are not off
       pacman -S mingw-w64-x86_64-zbar
       ```
 
-    You find more details about those dependencies in the [Monero documentation](https://github.com/monero-project/monero). Note that that there is no more need to compile Boost from source; like everything else, you can install it now with a MSYS2 package.
+    You find more details about those dependencies in the [Monero documentation](https://github.com/txchangecoin-project/txchangecoin). Note that that there is no more need to compile Boost from source; like everything else, you can install it now with a MSYS2 package.
 
 4. Install Qt5
 
@@ -231,18 +226,18 @@ The Monero GUI on Windows is 64 bits only; 32-bit Windows GUI builds are not off
 6. Clone repository
 
     ```
-    git clone https://github.com/monero-project/monero-gui.git
+    git clone https://github.com/txchangecoin-project/txchangecoin-gui.git
     ```
 
 7. Build
 
     ```
-    cd monero-gui
+    cd txchangecoin-gui
     source ./build.sh release-static
     cd build
     make deploy
     ```
 
-    **Note:** The use of `source` above is a dirty workaround for a suspected bug in the current QT version 5.11.2-3 available in the MSYS2 packaging system, see https://github.com/monero-project/monero-gui/issues/1559 for more info.
+    **Note:** The use of `source` above is a dirty workaround for a suspected bug in the current QT version 5.11.2-3 available in the MSYS2 packaging system, see https://github.com/txchangecoin-project/txchangecoin-gui/issues/1559 for more info.
 
 The executable can be found in the `.\release\bin` directory.
