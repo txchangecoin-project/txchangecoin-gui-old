@@ -1,4 +1,5 @@
+
+	ignore = all
 [submodule "txchangecoin"]
 	path = txchangecoin
 	url = https://github.com/txchangecoin-project/txchangecoin
-	ignore = all
